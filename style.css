@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 body{    
     
     background-image: url("./media/jaguar-xe.jpg");
@@ -5,9 +9,20 @@ body{
     height: 100%;
 }
 
-p{
-    font:white;
-    position: absolute;
+p, h1{
+    color: white;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;   
+    
+}
+
+.button_link{
+    background: #DB3030;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 15px;
+
 }
 
 .container{
