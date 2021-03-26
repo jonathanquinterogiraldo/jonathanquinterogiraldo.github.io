@@ -1,0 +1,10 @@
+
+.texts{ 
+    font-weight: bold;  
+}
+.options{
+    display: flex;
+    justify-content: space-between;  
+}
+
+
