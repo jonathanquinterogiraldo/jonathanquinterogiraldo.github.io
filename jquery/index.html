@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">                     
+        <h1>Picas y Fijas</h1>
+        <p>Ingresa  cuatro dígitos diferentes  y oprime Enter</p>       
+        <div class="form-group">             
+            <input id="validacion"type="number" class="form-control input-sm" placeholder="Ingresa solo numeros">
+            <p class="help-block"></p>
+        </div>            
+        <table>    
+            <thead>
+                <tr>
+                    <th scope="col">Números</th>
+                    <th scope="col">Picas</th>
+                    <th scope="col">Fijas</th>
+                </tr> 
+            </thead>     
+            <tbody>
+                <script id="td-template" type="text/x-handlebars-template">                                         
+                    <tr>
+                      <td>{{numero}}</td>    
+                      <td>{{picas}}</td>   
+                      <td>{{fijas}}</td>                 
+                    </tr>                                 
+                </script> 
+            </tbody>                                 
+        </table>    
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
